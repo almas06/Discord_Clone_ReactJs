@@ -1,0 +1,32 @@
+/* font-family: 'Istok Web', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.navbar{
+    background-color: #5865F2;
+}
+.navbar-wrapper{
+    display: flex;
+    height: 80px;
+    margin: 0 40px;
+    justify-content: space-around;
+}
+.navbar-menu ul{
+    display: flex;
+    margin-top: 12px;
+}
+.navbar-menu ul li{
+    padding : 20px;
+    list-style: none;  
+}
+.navbar-menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
