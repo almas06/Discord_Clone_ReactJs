@@ -1,7 +1,7 @@
 import React from 'react';
 import "./navbar.css"
 import { Link, BrowserRouter as Router } from 'react-router-dom';
-import logo from "./discord_logo.svg"
+import logo from "./logo1.svg"
 
 const Navbar = () => {
   return (
@@ -9,7 +9,8 @@ const Navbar = () => {
       <div className="navbar">
       <div className="navbar-wrapper">
       <div className="navbar-logo">
-        <h4><img src={logo} alt="logo"/>Discord</h4>
+        <img src={logo} alt="logo"/>
+        <h4>Discord</h4>
       </div>
       <div className="navbar-menu">
          <ul>

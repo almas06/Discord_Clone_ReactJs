@@ -1,5 +1,7 @@
 /* font-family: 'Istok Web', sans-serif;
-font-family: 'Source Sans Pro', sans-serif; */
+font-family: 'Source Sans Pro', sans-serif; 
+#5865f2
+*/
 *{
     margin: 0;
     padding: 0;
@@ -19,14 +21,20 @@ font-family: 'Source Sans Pro', sans-serif; */
 .navbar-logo h4{
     font-family: 'Istok Web', sans-serif;
     font-weight: 800;
-    font-size: large;
+    font-size: 20px;
     color: white;
-    margin: 20px 50px;
+    margin: 18px 50px;
     justify-content: center;
 }
 .navbar-logo{
     display: flex;
-    margin-left: 20px;
+    margin-left: 30px;
+}
+.navbar-logo img{
+    display: flex;
+    width: 55.67px;
+    height: 60.25px;
+    margin-right: -55px;
 }
 .navbar-menu ul{
     display: flex;
