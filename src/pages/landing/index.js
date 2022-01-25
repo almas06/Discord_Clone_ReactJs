@@ -1,14 +1,15 @@
 import React from 'react'
+import Header from '../../components/Header';
 import Navbar from '../../components/Navbar/Navbar'
 import "./landing.css"
 
 const LandingPage =()=> {
-    return <div>
-        <Navbar/>
-        <div className="landing-pg">
+    return (
+        <div>
+            <Navbar/>
+            <Header/>
         </div>
-        
-    </div>
+    )
 };
 
 export default LandingPage;

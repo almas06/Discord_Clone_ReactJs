@@ -6,10 +6,9 @@ font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
-
 }
 .navbar{
-    background-color: #5865f2;
+    background-color: #4865ed;
 }
 .navbar-wrapper{
     display: flex;
@@ -52,6 +51,10 @@ font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
     letter-spacing: 0.5px;
     font-size: 15px;
+}
+.navbar-menu ul li a:hover{
+    text-decoration: dotted;
+    color: white;
 }
 .navbar-btn{
     margin-top: 15px;
