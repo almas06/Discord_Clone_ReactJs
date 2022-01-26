@@ -1,3 +1,13 @@
+@font-face {
+    font-family: ginto;
+    src: url("ABCGintoNord-Bold-Trial.woff2");
+    font-weight: 900;
+  }
+  @font-face {
+    font-family: whitney;
+    src: url("whitney-light.otf");
+    font-weight: 400;
+  }
 .header{
     background-image: url("./header.jpeg");
     height: 83vh;
@@ -10,19 +20,21 @@
     text-align: center;
 }
 .header-main-title{
-    font-size: 65px;
-    font-weight: 900;
+    font-size: 58px;
+    font-weight: 800;
     color: white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family:ginto;
+    line-height: 50px;
+    margin-top: 30px;
 }
 .header-desc{
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 400;
     color: white;
-    font-family: 'Istok Web', sans-serif;
-    margin-top: 20px;
+    font-family: whitney;
+    margin-top: 40px;
     margin-bottom: 20px;
-    line-height: 30px;
+    line-height: 33px;
 }
 .buttons{
     margin-top: 35px;
@@ -34,7 +46,10 @@
     border-color: white;
     border-style: none;
     padding: 14px 35px;
-    font-size: 18px;
+    font-family: whitney;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
     margin-right: 20px;
 }
 .buttons .btn1 i{
@@ -54,10 +69,13 @@
     border-color: black;
     border-style: none;
     padding: 14px 32px;
-    font-size: 18px;
+    font-family: whitney;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
     margin-left: 10px;
 }
 .buttons .btn2:hover{
     background-color: #2f3438;
-    box-shadow: 5px 5px 5px rgba(35, 39, 42, 0.2);;
+    box-shadow: 5px 5px 5px rgba(35, 39, 42, 0.2);
 }
