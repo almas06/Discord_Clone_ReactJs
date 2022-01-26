@@ -70,6 +70,7 @@ font-family: 'Source Sans Pro', sans-serif;
 .navbar-menu ul li a:hover{
     text-decoration: dotted;
     color: white;
+    border-bottom: solid 1px;
 }
 .navbar-btn{
     margin-top: 15px;
@@ -77,12 +78,12 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 .navbar-btn button{
     width: auto;
-    border-radius: 15px ;
+    border-radius: 28px ;
     background-color: white;
     color: black;
     border-color: white;
     border-style: none;
-    padding: 5px 15px;
+    padding: 7px 15px;
     font-size: 15px;
 }
 .navbar-btn button:hover{

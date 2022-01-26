@@ -15,6 +15,12 @@ const Tech = () => {
         <div className="tech-img">
             <img src={tech} alt='tech' />
         </div>
+        <div className="tech-download">
+              <h5>Ready to start your journey?</h5>
+              <div className="btns">
+              <button className="btn"><i class="fa fa-download"></i>Download for Windows</button>
+              </div>
+        </div>
       </div>
   </div>;
 };

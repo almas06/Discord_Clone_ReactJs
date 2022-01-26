@@ -7,7 +7,7 @@
     src: url("whitney-light.otf");
 }
 .tech-content{
-    height: 150vh;
+    height: 200vh;
     width: 100%;
     background-color: #f6f6f6;
     padding-top: 120px;
@@ -36,7 +36,41 @@
     justify-content: center;
 }
 .tech-img img{
-    width: 85%;
+    width: 86%;
     margin: 24px auto 0 auto;
     object-position: center;
+}
+.tech-download .btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tech-download .btn{ 
+    background-color: #5865f2;
+    color: white;
+    border-color: #5865f2;
+    border-style: none;
+    border-radius: 28px ;
+    padding: 16px 42px;
+    font : normal normal 500 20px/24px whitney;
+    margin-top: 35px;
+    
+}
+.tech-download .btn:hover{
+    background-color: #7b84eb;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(35, 39, 42, 0.2);
+}
+.tech-download .btn i{
+    margin-right: 10px;
+    color:white;
+}
+.tech-download h5{
+    font-family: ginto;
+    font-size:32px ;
+    font-weight:600 ;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 90px;
+    color: black;
 }

@@ -13,7 +13,7 @@ const Header = () => {
            A place that makes it easy<br/> to talk every day and hang out more often.
           </div>
           <div className="buttons">
-              <button className="btn1"><i class="fa fa-download"></i>Download for Linux</button>
+              <button className="btn1"><i class="fa fa-download"></i>Download for Windows</button>
               <button className="btn2">Open Discord in your Browser</button>
           </div>
       </div>
