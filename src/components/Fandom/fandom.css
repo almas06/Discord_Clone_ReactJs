@@ -1,0 +1,46 @@
+@font-face {
+    font-family: ginto;
+    src: url("ABCGintoNormal-Bold-Trial.woff2");
+    font-weight: 700;
+  }
+@font-face {
+    font-family: whitney;
+    src: url("whitney-light.otf");
+}
+.fandom-row{
+    height: 100vh;
+    width: 100%;
+    padding: 120px 50px;
+    
+}
+.fandom-img{
+    display: flex;
+    float: left;
+    width: 678px;
+    height: 440px;
+    margin-right: 120px;
+    margin-left: 30px;
+    align-items: flex-start;
+}
+.fandom fandom-content{
+    display: flex;
+    align-items: flex-end;
+    float: right;
+    justify-content: center;
+}
+.fandom-main-title{
+    font-family: ginto;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    margin-top: 80px;
+    
+}
+.fandom-desc{
+    font-family: whitney;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-top: 20px;
+    color: #23272a;
+}

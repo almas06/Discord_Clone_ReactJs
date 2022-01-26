@@ -1,0 +1,47 @@
+@font-face {
+    font-family: ginto;
+    src: url("ABCGintoNormal-Bold-Trial.woff2");
+    font-weight: 700;
+  }
+@font-face {
+    font-family: whitney;
+    src: url("whitney-light.otf");
+}
+.hanging-row{
+    height: 100vh;
+    width: 100%;
+    padding: 120px 50px;
+    background-color: #f6f6f6;
+}
+.hanging-img{
+    display: flex;
+    float: right;
+    width: 678px;
+    height: 440px;
+     margin-right: 30px; 
+    align-items: flex-end;
+}
+.hanging hanging-content{
+    display: flex;
+    align-items: flex-start;
+    float: left;
+    justify-content: center;
+}
+.hanging-main-title{
+    font-family: ginto;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-left: 40px;
+    
+}
+.hanging-desc{
+    font-family: whitney;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: #23272a;
+}
