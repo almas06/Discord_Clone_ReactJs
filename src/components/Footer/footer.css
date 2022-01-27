@@ -1,0 +1,104 @@
+@font-face {
+    font-family: ginto;
+    src: url("ABCGintoNord-Bold-Trial.woff2");
+    font-weight: 1200;
+  }
+@font-face {
+font-family: whitney;
+src: url("whitney-medium.otf");
+font-weight: 600;
+}
+.footer-container{
+    height: 70vh;
+    width: 100%;
+    padding: 120px 50px;
+    background-color: #23272a;
+}
+.footer-container .row1{
+    display: flex;
+    border-bottom: solid 1px #4865ed ;
+    
+}
+.social{
+    margin-left: 20px;
+}
+.social h3{
+    color: #4865ed;
+    font-family: ginto;
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 800;
+    
+}
+.social i{
+    font-size: 22px;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+}
+h6{
+   color: #4865ed; 
+   font-size: 16px;
+}
+.product{
+    margin-left: 150px;
+}
+.company,.resources,.policy{
+    margin-left: 100px;
+}
+li{
+    list-style: none;
+}
+li a{
+    color: white;
+    font-family: whitney;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
+li a:hover{
+    color: white;
+    border-bottom: solid 1px;
+}
+.footer-container .row2{
+    display: flex;
+    margin-top: 20px;
+}
+.row2 .logo{
+    display: flex;
+    margin-left: 30px;
+}
+.row2 .logo img{
+    display: flex;
+    width: 55.67px;
+    height: 60.25px;
+    margin-right: -55px;
+}
+.logo h4{
+    font-family: ginto;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    margin: 21px 50px;
+    justify-content: center;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+.row2 button{
+    width: auto;
+    border-radius: 28px ;
+    background-color: #4865ed;
+    color: white;
+    font-family: whitney;
+    border-color: white;
+    border-style: none;
+    padding: 7px 15px;
+    font-size: 15px;
+}
+.row2 button{
+    margin-left: 900px;
+    margin-top: 20px;
+}
+
+

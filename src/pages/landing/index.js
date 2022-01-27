@@ -1,5 +1,6 @@
 import React from 'react'
 import Fandom from '../../components/Fandom';
+import Footer from '../../components/Footer';
 import Hanging from '../../components/Hanging';
 import Header from '../../components/Header';
 import Invite from '../../components/Invite';
@@ -16,6 +17,7 @@ const LandingPage =()=> {
             <Hanging/>
             <Fandom/>
             <Tech/>
+            <Footer/>
         </div>
     )
 };
