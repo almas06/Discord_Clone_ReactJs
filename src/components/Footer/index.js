@@ -14,7 +14,7 @@ const Footer = () => {
             <i class="fa fa-twitter"></i>
             <i class="fa fa-instagram"></i>
             <i class="fa fa-facebook-square"></i>
-            <i class="fa fa-youtube"></i>
+            <i class="fa fa-youtube-play"></i>
           </div>
           <div className="product">
             <ul>

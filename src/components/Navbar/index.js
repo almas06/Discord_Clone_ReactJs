@@ -23,7 +23,7 @@ const Navbar = () => {
          </ul>  
       </div>
       <div className="navbar-btn">
-           <button type = "button">Login</button>
+           <button type = "button"><Link to ="https://discord.com/login">Login</Link></button>
       </div>
       </div>
 

@@ -9,15 +9,15 @@ src: url("whitney-medium.otf");
 font-weight: 600;
 }
 .footer-container{
-    height: 70vh;
+    height: 85vh;
     width: 100%;
-    padding: 120px 50px;
+    padding: 80px 50px 50px 50px;
     background-color: #23272a;
 }
 .footer-container .row1{
     display: flex;
     border-bottom: solid 1px #4865ed ;
-    
+    padding-bottom: 30px;   
 }
 .social{
     margin-left: 20px;
@@ -35,6 +35,7 @@ font-weight: 600;
     color: white;
     padding: 10px;
     margin-right: 10px;
+    cursor: pointer;
 }
 h6{
    color: #4865ed; 
@@ -46,13 +47,14 @@ h6{
 .company,.resources,.policy{
     margin-left: 100px;
 }
-li{
+.row1 li{
     list-style: none;
+    margin-top: 8px;
 }
 li a{
     color: white;
     font-family: whitney;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     text-decoration: none;
@@ -100,5 +102,8 @@ li a:hover{
     margin-left: 900px;
     margin-top: 20px;
 }
-
+/* hr{
+    width: 85%;
+    margin: 50px auto 20px auto;
+} */
 
